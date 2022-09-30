@@ -1562,6 +1562,9 @@ footer img{
     .landing .landing-img {
         bottom: -300px;
     }
+    .feature-icon img {
+        width: 45px;
+    }
 
     .page-header {
         background-attachment: unset;

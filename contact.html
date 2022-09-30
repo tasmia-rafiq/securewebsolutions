@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Secure Web Solutions</title>
+
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ===== Navigation Bar ===== -->
+    <header>
+        <nav class="navbar">
+            <a href="/" class="logo">
+                <h3><span>Secure</span>WebSolutions</h3>
+            </a>
+
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </nav>
+    </header>
+
+    <!-- ===== Mobile Menu ===== -->
+    <div class="popup-mobilemenu">
+        <div class="menu-inner">
+            <div class="menu-top">
+                <i class="fa-solid fa-close" id="close"></i>
+            </div>
+
+            <div class="content">
+                <nav id="sideNavMobile" class="mainmenu-nav">
+                    <ul class="navbar-list1">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="services.html">services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================================================================
+            PAGE HEADER
+    ========================================================================================== -->
+    <section class="page-header section">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <!-- ==========================================================================================
+            CONTACT
+        ========================================================================================== -->
+
+    <section class="contact section">
+        <div class="container">
+            <div class="contact-form">
+                <div class="contact-info">
+                    <img src="images/contact.jpg">
+                    <div class="info-details">
+                        <p>Email:</p>
+                        <a href="#">securewebsolutions@gmail.com</a>
+                    </div>
+                    <div class="info-details">
+                        <p>Phone:</p>
+                        <a href="#">(021) 897-4577</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="form-wrapper">
+                    <form id="contact">
+                        <h3 class="contact-top">
+                            Let's Get In <span>Touch</span>
+                        </h3>
+
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
+                        <textarea name="message" placeholder="Type your Message here" cols="30" rows="10"></textarea>
+
+                        <button name="submit" type="submit" id="contact-submit">Send</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================================
+            FOOTER
+        ========================================================================================== -->
+    <footer>
+        <img src="images/footer-swoosh.svg">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <a href="/" class="logo">
+                        <h3><span>Secure</span>WebSolutions</h3>
+                        <div class="footer-line"></div>
+                    </a>
+                    <a href="#">securewebsolutions@gmail.com</a>
+                    <a href="#">(021) 897-4577</a>
+                </div>
+
+                <div class="footer-col">
+                    <h2>Quick Links</h2>
+                    <div class="footer-line"></div>
+
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="branding">
+            <p>Copyright &copy; 2022 | Secure Web Solutions | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

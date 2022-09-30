@@ -311,7 +311,7 @@ header {
 .landing{
     height: 900px;
     position: relative;
-    margin-bottom: 70px;
+    margin-bottom: 300px;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -319,7 +319,7 @@ header {
     -webkit-box-align: center;
     align-items: center;
     background: var(--background-color-1);
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .landing .container{
